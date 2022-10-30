@@ -416,7 +416,7 @@ button {
   align-items: center;
   justify-content: center;
   color: var(--soc-color);
-  transition: color 250ms var(--timing-function), border 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .clients-icon {
@@ -600,8 +600,8 @@ button {
   transition: transform 250ms var(--timing-function);
 }
 
-.gallery-item:hover .gallery-top-text,
-.gallery-item:focus .gallery-top-text {
+.gallery-link:hover .gallery-top-text,
+.gallery-link:focus .gallery-top-text {
   transform: translateY(0);
 }
 
